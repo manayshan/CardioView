@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="care_to_ur_heart">Care to ur HearT!!</string>
+    <string name="cardioview">CardioView</string>
+    <string name="search_your_queries">Search your queries</string>
+    <string name="search">Search</string>
+    <string name="button">Button</string>
+    <string name="know_your_heart">Know Your Heart</string>
+    <string name="heart_care">Heart Care</string>
+    <string name="heartbeat_txt">Heart rate is the speed of the heartbeat measured by the number of
+        contractions (beats) of the heart per minute (bpm). The heart rate can vary according to the
+        body\'s physical needs, including the need to absorb oxygen and excrete carbon dioxide.
+        The American Heart Association states the normal resting adult human heart rate is <b>60–100 bpm</b>.
+        <b>Tachycardia</b> is a fast heart rate, defined as above 100 bpm at rest. <b>Bradycardia</b> is a slow
+        heart rate, defined as below 60 bpm at rest. <b>During sleep a slow heartbeat with rates around
+        40–50 bpm is common and is considered normal.</b> When the heart is not beating in a regular pattern,
+        this is referred to as an arrhythmia. Abnormalities of heart rate sometimes indicate disease.
+    </string>
+
+    <string name="normal_heartbeat">Healthy HeartBeat</string>
+    <string name="problem_list"><br> <b>1. Tachycardia</b>\n</br>
+        <br><b>2. Bradycardia</b></br> </string>
+    <string name="tachycardia"> <weight><u>Tachycardia</u></weight> </string>
+    <string name="tachycardia_txt">Tachycardia is a common type of heart rhythm disorder (arrhythmia) in which the heart beats faster than normal while at rest.
+
+<br>Your heart rate is controlled by electrical signals sent across heart tissues. Tachycardia occurs
+        when an abnormality in the heart produces rapid electrical signals that quicken the heart rate,
+        hich is normally about 60 to 100 beats a minute at rest.\n</br>
+<br>In some cases, tachycardia may cause no symptoms or complications. But if left untreated,
+    tachycardia can disrupt normal heart function and lead to serious complications, including:\n</br>
+        <br><b>1.</b>Heart failure\n</br>
+        <br><b>2.</b>Stroke\n</br>
+        <br><b>3.</b>Sudden cardiac arrest or death</br>
+    </string>
+    <string name="tachy_symptoms"><b>Symptoms:-</b></string>
+    <string name="tachy_symptoms_list"><br>This can deprive your organs and tissues of oxygen and can cause the following tachycardia-related signs and symptoms:\n </br>
+
+        <br><b>1.</b>Shortness of breath\n</br>
+        <br><b>2.</b>Lightheadedness\n</br>
+        <br><b>3.</b>Rapid pulse rate\n</br>
+        <br><b>4.</b>Heart palpitations — a racing, uncomfortable or irregular heartbeat or a sensation of "flopping" in the chest\n</br>
+        <br><b>5.</b>Chest pain\n</br>
+        <br><b>6.</b>Fainting (syncope)</br></string>
+    <string name="tachy_causes">Causes:-</string>>
+    <string name="tachy_causes_list"><br>Many things can cause or contribute to problems with the heart\'s electrical system. These include:\n</br>
+
+        <br>1.Damage to heart tissues from heart disease\n</br>
+        <br>2.Abnormal electrical pathways in the heart present at birth (congenital heart conditions, including long QT syndrome)\n</br>
+        <br>3.Disease or congenital abnormality of the heart\n</br>
+        <br>4.Anemia\n</br>
+        <br>5.Exercise\n</br>
+        <br>6.Sudden stress, such as fright\n</br>
+        <br>7.High or low blood pressure\n</br>
+        <br>8.Smoking</br>
+        <br>9.Fever</br>
+        <br>10.Drinking too much alcohol\n</br>
+        <br>11.Drinking too many caffeinated beverages\n</br>
+        <br>12.Medication side effects\n</br>
+        <br>Abuse of recreational drugs, such as cocaine\n</br></string>
+    <string name="tachy_prevention">Prevention:-</string>
+    <string name="tachy_prevention_list">The most effective way to prevent tachycardia is to maintain a healthy heart and reduce your risk of developing heart disease.
+        If you already have heart disease, monitor it and follow your treatment plan to lower your tachycardia risk.</string>
+    <string name="bracardia">Bradycardia</string>
+    <string name="bradycardia_txt">Bradycardia is a slower than normal heart rate.
+        Bradycardia can be a serious problem if the heart doesn\'t pump enough oxygen-rich blood to the body.
+    An implanted pacemaker can correct bradycardia and help your heart maintain an appropriate rate.</string>
+    <string name="brady_symptoms">Symptoms:-</string>
+    <string name="brady_symptoms_list"><br>If you have bradycardia, your brain and other organs might not get enough oxygen, possibly causing these symptoms:\n</br>
+        <br>1. Near-fainting or fainting (syncope)\n</br>
+        <br>2. Dizziness or lightheadedness\n</br>
+        <br>3. Fatigue\n</br>
+        <br>4. Shortness of breath\n</br>
+        <br>5. Chest pains\n</br>
+        <br>6. Confusion or memory problems\n</br>
+        <br>7. Easily tiring during physical activity\n</br></string>
+    <string name="brady_causes">Causes:-</string>
+    <string name="brady_cause_list"><br>Bradycardia can be caused by:\n</br>
+
+    <br>1. Heart tissue damage related to aging\n</br>
+    <br>2. Damage to heart tissues from heart disease or heart attack\n</br>
+    <br>3. Heart disorder present at birth (congenital heart defect)\n</br>
+    <br>4. Infection of heart tissue (myocarditis)\n</br>
+    <br>5. A complication of heart surgery\n</br>
+    <br>6. Underactive thyroid gland (hypothyroidism)\n</br>
+    <br>7. Imbalance of chemicals in the blood, such as potassium or calcium\n</br>
+    <br>8. Repeated disruption of breathing during sleep (obstructive sleep apnea)\n</br>
+    </string>
+    <string name="brady_preventions">Prevention:-</string>
+    <string name="brady_prevention_lists">The most effective way to prevent bradycardia is to reduce your risk of developing heart disease.
+        If you already have heart disease, monitor it and follow your treatment plan to lower your risk of bradycardia.</string>
+    <string name="problems">Problems:-</string>
+    <string name="chestpain">Chest Pain</string>
+    <string name="chestpain_txt"><br>Chest pain appears in many forms, ranging from a sharp stab to a dull ache.
+        Sometimes chest pain feels crushing or burning. In certain cases, the pain travels up the neck,
+        into the jaw, and then radiates to the back or down one or both arms.\n</br>
+        <br>Many different problems can cause chest pain. The most life-threatening causes involve the heart or lungs.
+        Because chest pain can indicate a serious problem, it\'s important to seek immediate medical help.\n</br> </string>
+    <string name="chestpain_causes">ChestPain Caauses:-</string>
+    <string name="chestpain_cause1">1. Heart-related causes:</string>
+    <string name="chestpain_cause11"><br>I. Heart attack- A heart attack results from blocked blood flow, often from a blood clot, to your heart muscle.\n\n</br>
+        <br>II. Angina- Angina is the term for chest pain caused by poor blood flow to the heart. This is often caused by the buildup of thick plaques on the inner walls of the arteries that carry blood to your heart. These plaques narrow the arteries and restrict the heart\'s blood supply, particularly during exertion.\n\n</br>
+        <br>III. Aortic dissection- This life-threatening condition involves the main artery leading from your heart (aorta). If the inner layers of this blood vessel separate, blood is forced between the layers and can cause the aorta to rupture.\n\n</br>
+        <br>IV. Pericarditis- This is the inflammation of the sac surrounding your heart. It usually causes sharp pain that gets worse when you breathe in or when you lie down.\n\n</br>
+    </string>
+    <string name="chestpain_cause2">Digestive causes:-</string>
+    <string name="chestpain_cause21"><br>I. Heartburn- This painful, burning sensation behind your breastbone occurs when stomach acid washes up from your stomach into the tube that connects your throat to your stomach (esophagus).\n\n</br>
+        <br>II. Swallowing disorders- Disorders of the esophagus can make swallowing difficult and even painful.\n\n</br>
+        <br>III. Gallbladder or pancreas problems- Gallstones or inflammation of your gallbladder or pancreas can cause abdominal pain that radiates to your chest.\n</br></string>
+    <string name="chestpain_cause3">Muscle and bone causes:-</string>
+    <string name="chestpain_cause31"><br>I. Costochondritis- In this condition, the cartilage of your rib cage, particularly the cartilage that joins your ribs to your breastbone, becomes inflamed and painful.\n\n</br>
+        <br>II. Sore muscles- Chronic pain syndromes, such as fibromyalgia, can produce persistent muscle-related chest pain.\n\n</br>
+        <br>III. Injured ribs- A bruised or broken rib can cause chest pain.\n</br></string>
+    <string name="chestpain_cause4">Lung-related causes</string>
+    <string name="chestpain_cause41"><br>I. Pulmonary embolism- This occurs when a blood clot becomes lodged in a lung (pulmonary) artery, blocking blood flow to lung tissue.\n\n</br>
+        <br>II. Pleurisy- If the membrane that covers your lungs becomes inflamed, it can cause chest pain that worsens when you inhale or cough.\n\n</br>
+        <br>III. Collapsed lung- The chest pain associated with a collapsed lung typically begins suddenly and can last for hours, and is generally associated with shortness of breath. A collapsed lung occurs when air leaks into the space between the lung and the ribs.\n\n</br>
+        <br>IV. Pulmonary hypertension- This condition occurs when you have high blood pressure in the arteries carrying blood to the lungs, which can produce chest pain.\n</br>
+    </string>
+    <string name="chestpain_cause5">Other causes:-</string>
+    <string name="chestpain_cause51"><br>I. Panic attack- If you have periods of intense fear accompanied by chest pain, a rapid heartbeat, rapid breathing, profuse sweating, shortness of breath, nausea, dizziness and a fear of dying, you may be experiencing a panic attack.\n\n</br>
+        <br>II. Shingles- Caused by a reactivation of the chickenpox virus, shingles can produce pain and a band of blisters from your back around to your chest wall.\n</br>
+    </string>
+    <string name="chestpain_treatment">ChestPain Treatment</string>
+    <string name="chestpain_treat1">Medications</string>
+    <string name="chestpain_treat11"><br>Drugs used to treat some of the most common causes of chest pain include:\n</br>
+
+        <br>1. Artery relaxers- Nitroglycerin — usually taken as a tablet under the tongue — relaxes heart arteries, so blood can flow more easily through the narrowed spaces. Some blood pressure medicines also relax and widen blood vessels.\n\n</br>
+        <br>II. Aspirin- If doctors suspect that your chest pain is related to your heart, you\'ll likely be given aspirin.\n\n</br>
+        <br>III. Thrombolytic drugs- If you are having a heart attack, you may receive these clot-busting drugs. These work to dissolve the clot that is blocking blood from reaching your heart muscle.\n\n</br>
+        <br>IV. Blood thinners- If you have a clot in an artery feeding your heart or lungs, you\'ll be given drugs that inhibit blood clotting to prevent the formation of more clots.\n\n</br>
+        <br>V. Acid-suppressing medications- If your chest pain is caused by stomach acid splashing into your esophagus, the doctor may suggest medications that reduce the amount of acid in your stomach.\n\n</br>
+        <br>VI. Antidepressants- If you\'re experiencing panic attacks, your doctor may prescribe antidepressants to help control your symptoms. Psychological therapy, such as cognitive behavioral therapy, also might be recommended.\n</br></string>
+
+    <string name="chestpain_treat2">Surgical and other procedures</string>
+    <string name="chestpain_treat21"><br>I. Angioplasty and stent placement- If your chest pain is caused by a blockage in an artery feeding your heart, your doctor will insert a catheter with a balloon on the end into a large blood vessel in your groin, and thread it up to the blockage. Your doctor will inflate the balloon tip to widen the artery, then deflate and remove the catheter. In most cases, a small wire mesh tube (stent) is placed on the outside of the balloon tip of the catheter. When expanded, the stent locks into place to keep the artery open.\n\n</br>
+        <br>II. Bypass surgery- During this procedure, surgeons take a blood vessel from another part of your body and use it to create an alternative route for blood to go around the blocked artery.\n\n</br>
+        <br>III. Dissection repair- You may need emergency surgery to repair an aortic dissection — a life-threatening condition in which the artery that carries blood from your heart to the rest of your body ruptures.\n\n</br>
+        <br>IV. Lung reinflation- If you have a collapsed lung, doctors may insert a tube in your chest to reinflate the lung.\n</br></string>
+    <string name="chestpain_precaution">ChestPain Precaution:-</string>
+    <string name="chestpain_precaution_txt">Ten home remedies for heart pain</string>
+    <string name="chestpain_precaution_list"><br>I. Almonds -
+When acid reflux is to blame for the heart pain, eating a few almonds or drinking a cup of almond milk may help.
+There is not much scientific evidence to support these claims around almonds. Instead, most of the evidence is anecdotal with people passing on their knowledge or experience to others.
+However, some research indicates that almond consumption may help with the prevention of heart disease. Though almonds may not stop the immediate pain, they can have a positive impact on overall heart health.</br>
+    <br>2. Cold pack -
+A common cause of heart or chest pain is a muscle strain. In these cases, a person can have pain in the chest due to strain from exercise, other activities, or blunt trauma.
+        In any of these cases, icing the area with a cold pack is a widely accepted method to help reduce swelling and stop the pain.</br>
+    <br>3. Hot drinks -
+A hot drink may help to eliminate gas when a person\'s pain is due to gas or bloating. The hot liquid can also help boost digestion.
+        Hibiscus may also play a role in lowering blood pressure and reducing cholesterol. These added benefits may help prevent heart complications.</br>
+    <br>4. Baking soda -
+Another popular recommendation for heart pain is to add baking soda to warm or cool water. The result is an alkaline solution that can help reduce the acid in the stomach if that is causing the pain.
+        However, a study in 2013 concluded that baking soda may be good to treat heartburn but may have adverse effects on the heart overall.</br>
+    <br>5. Garlic\nGarlic is claimed to be a remedy for chest pain, although there is no science to back this up.\n</br>
+        <br>7. Aspirin
+A person may want to take aspirin if they have chest pain. A pain reliever, such as aspirin, can help alleviate the heart pain associated with less severe cases.\n</br>
+    </string>
+    <string name="heartattack_txt">A <b>heart attack</b> is the death of a segment of heart muscle caused by a loss of blood supply. The blood is usually cut off when an artery supplying the heart muscle is blocked by a blood clot.<br>\n</br>
+If some of the heart muscle dies, a person experiences chest pain and electrical instability of the heart muscle tissue<br>\n</br></string>
+    <string name="search_more">Search More</string>
+    <string name="cardiac_arrest">Cardiac Arrest</string>
+    <string name="chest_pain">Chest Pain</string>
+    <string name="heart_beat_related_problems">Heart Beat Related Problems</string>
+    <string name="todo">TODO</string>
+    <string name="CardioView">CardioView</string>
+    <string name="maintainheart">Maintain Your Heart</string>
+    <string name="workout_for_your_heart">Workout for YOur Heart</string>
+    <string name="monitor_cholestrol">Monitor Cholestrol</string>
+    <string name="monitor_body_temp">Monitor Body Temp</string>
+    <string name="what_to_eat">What to Eat!</string>
+    <string name="checkup_record">CheckUp Reminder</string>
+    <string name="medicine_reminder">Medicine Reminder</string>
+    <string name="heartattack1">Heart Attack</string>
+    <string name="heartattackfast_facts">Fast facts on heart attacks:</string>
+    <string name="heartattack_facts"><br>I. During a heart attack, the heart muscle loses blood supply and is damaged.\n</br>
+        <br>II. Chest discomfort and pain are common symptoms.\n</br>
+        <br>III. The risk of a heart attack increases when a man is over 45 and a woman is over 55.\n</br>
+        <br>Smoking and obesity are big factors, particularly in the at-risk age range.\n</br></string>
+    <string name="heartattack_symptoms">Heart Attack Symptoms:-</string>
+    <string name="heartattack_symptomslist">There are clear symptoms of a heart attack that require immediate medical attention.<br>\n</br>
+
+A feeling of pressure, tightness, pain, squeezing, or aching in the chest or arms that spreads to the neck, jaw, or back can be a sign that a person is having a heart attack.<br>\n\n</br>
+
+The following are other possible signs and symptoms of a heart attack occurring:<br>\n</br>
+<b>\></b>coughing<br>\n</br>
+<b>\></b>nausea<br>\n</br>
+<b>\></b>vomiting<br>\n</br>
+<b>\></b>crushing chest pain<br>\n</br>
+<b>\></b>dizziness<br>\n</br>
+<b>\></b>shortness of breath called dyspnea<br>\n</br>
+<b>\></b>face seeming gray in color<br>\n</br>
+<b>\></b>a feeling of terror that life is ending<br>\n</br>
+<b>\></b>feeling awful, generally<br>\n</br>
+<b>\></b>restlessness<br>\n</br>
+<b>\></b>feeling clammy and sweaty<br>\n</br>
+<b>\></b>shortness of breath<br>\n</br></string>
+    <string name="heartattack_causes">Heart Attack Causes: </string>
+    <string name="heartattack_causeslist">The following factors are associated with increased risk of a heart attack:<br>\n</br>
+
+        <b>Age:</b> Heart attacks are more likely when a man is over 45, and when a woman is over 55.<br>\n</br>
+        <b>Angina:</b> This causes chest pain due to lack of oxygen or blood supply to the heart.<br>\n</br>
+        <b>High cholesterol levels:</b> These can increase the chance of blood clots in the arteries.<br>\n</br>
+        <b>Diabetes:</b> This can increase heart attack risk.<br>\n</br>
+        <b>Diet:</b> For example, consuming large quantities of saturated fats can increase the likelihood of a heart attack.<br>\n</br>
+        <b>Genetics:</b> A person can inherit a higher risk of heart attack.<br>\n</br>
+        <b>Heart surgery:</b> This can lead to a heart attack later on.<br>\n</br>
+        <b>Hypertension:</b> High blood pressure can put unnecessary strain on the heart.<br>\n</br>
+        <b>Obesity:</b> Being significantly overweight can put pressure on the heart.<br>\n</br>
+        Previous heart attack.<br>\n</br>
+        <b>Smoking:</b> Smokers are at much higher risk than non-smokers.<br>\n</br>
+        <b>HIV:</b> People who are HIV-positive have a 50 percent higher risk.<br>\n</br>
+        <b>Work stress:</b> Those who are shift workers or have stressful jobs can face a higher heart attack risk.<br>\n</br></string>
+    <string name="heartattack_treatment">Heart Attack Treatments:-</string>
+    <string name="heartattack_treatmentlist"><b>I. Treatments during a heart attack</b><br>\n</br>
+Sometimes, a person who is having a heart attack will stop breathing. In this case, cardio-pulmonary resuscitation, or CPR, should be started immediately. This process involves:<br>\n</br>
+        <b>manual chest compressions</b><br>\n</br>
+        <b>a defibrillator</b><br>\n\n</br>
+
+        <b>II. Treatments following a heart attack</b><br>\n</br>
+        <b>aspirin and other antiplatelets</b><br>\n</br>
+        <b>beta blockers</b><br>\n</br>
+        <b>ACE (angiotensin converting enzyme) inhibitors</b><br>\n</br>
+        <b>statins</b><br>\n</br>
+        <b>angioplasty</b><br>\n</br>
+        <b>CABG or coronary artery bypass graft</b><br>\n\n</br>
+</string>
+    <string name="heartattack_prevention">Prevention:-</string>
+    <string name="heartattack_preventionlist"><br>The best way of preventing a heart attack is to have a healthy lifestyle. Measures for healthy living include the following:\n</br>
+
+I. not smoking<br>\n</br>
+II. eating a balanced, healthful diet<br>\n</br>
+III. getting plenty of exercise<br>\n</br>
+IV. getting plenty of good quality sleep<br>\n</br>
+V. keeping diabetes under control<br>\n</br>
+VI. keeping alcohol intake down<br>\n</br>
+VII. maintaining blood cholesterol at optimum levels<br>\n</br>
+VIII. keeping blood pressure at a safe level<br>\n</br>
+IX. maintaining a healthy body weight<br>\n</br>
+X. avoiding stress where possible<br>\n</br>
+XI. learning how to manage stress<br>\n</br></string>
+    <string name="workout1">Workout For Heart</string>
+    <string name="workouttype1">I. Exercise at Home by Climbing Stairs</string>
+    <string name="workouttype1_desc">To get the maximum heart health benefit from any aerobic exercise,
+        aim to reach between 50 and 85 percent of your maximum heart rate. Climbing stairs is an easy way to get into that target range,
+        whether you do it at home or at the gym on a stair machine. To find your maximum heart rate, subtract your age from 220.
+        If you don\’t want to stop to count heartbeats,
+        you can assume that you\’re in your target rate if you can carry on a conversation while exercising without being too out of breath.<br>\n\n</br>
+    </string>
+    <string name="cardiacarrest1">Cardiac Arrest</string>
+    <string name="cardiacarrest_txt">Sudden cardiac arrest is the abrupt loss of heart function, breathing and consciousness. The condition usually results from an electrical disturbance in your heart that disrupts its pumping action, stopping blood flow to your body.
+
+Sudden cardiac arrest differs from a heart attack, when blood flow to a part of the heart is blocked. However, a heart attack can sometimes trigger an electrical disturbance that leads to sudden cardiac arrest.
+
+</string>
+    <string name="maintain_heart_checkup">Maintain Heart Checkup</string>
+    <string name="view_schedule">View schedule</string>
+    <string name="add_meeting">Add Appointment</string>
+    <string name="enter_appoint_aim">Enter Appoint Aim</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="set_reminder">set reminder</string>
+    <string name="add">add</string>
+    <string name="add_appointment">Add Appointment</string>
+    <string name="enter_duration_hours">Enter Duration : Hours</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="view_medicine_list">View Medicine List</string>
+    <string name="workouttype2_desc">Hit the pool for a workout your heart (and lungs!) will love. \“Leisure swimming only brings benefits for the extremely unfit population,\” says Fox. \“Lane swimming will give you a greater return on your exercise time investment.\” His recommendation? Progressing from eight to 12 lengths of the pool per swim technique, varying techniques on different days. This could mean doing front crawl and legs only with a flutter board one day and then back crawl and breast stroke another day. </string>
+    <string name="cardiacarrest_symptomslist">Sudden cardiac arrest signs and symptoms are immediate and drastic and include:<br>\n</br>
+
+Sudden collapse<br>\n</br>
+No pulse<br>\n</br>
+No breathing<br>\n</br>
+Loss of consciousness<br>\n</br><br>\n</br>
+Sometimes other signs and symptoms occur before sudden cardiac arrest. These might include:<br>\n</br>
+
+Chest discomfort<br>\n</br>
+Shortness of breath<br>\n</br>
+Weakness<br>\n</br>
+Palpitations<br>\n</br>
+But sudden cardiac arrest often occurs with no warning.<br>\n</br></string>
+    <string name="cardiacarrest_causeslist"><b>Heart conditions that can lead to sudden cardiac arrest</b><br>\n</br>
+    <b>Coronary artery disease.</b> Most cases of sudden cardiac arrest occur in people who have coronary artery disease, in which your arteries become clogged with cholesterol and other deposits, reducing blood flow to your heart.<br>\n</br>
+        <b>Heart attack.</b> If a heart attack occurs, often as a result of severe coronary artery disease, it can trigger ventricular fibrillation and sudden cardiac arrest. Also, a heart attack can leave scar tissue in your heart. Electrical short circuits around the scar tissue can lead to abnormalities in your heart rhythm.<br>\n</br>
+    <b>Enlarged heart (cardiomyopathy).</b> This occurs primarily when your heart\'s muscular walls stretch and enlarge or thicken. Then your heart\'s muscle is abnormal, a condition that often leads to arrhythmias.<br>\n</br>
+    <b>Valvular heart disease.</b> Leaking or narrowing of your heart valves can lead to stretching or thickening of your heart muscle. When the chambers become enlarged or weakened because of stress caused by a tight or leaking valve, there\'s an increased risk of developing arrhythmia.<br>\n\n</br></string>
+    <string name="anginapaintxt">Angina is not a disease in its own right but a probable symptom of coronary artery disease.
+
+It is a tightness, pain, or discomfort in the chest that occurs when an area of the heart muscle receives less blood oxygen than usual.
+
+It is not a life-threatening condition when experienced on its own.
+
+However, if a person is experiencing angina, it is a strong indicator that they have a type of heart disease. </string>
+    <string name="anginapain_symptomslist">Angina is usually felt in the chest region as:<br>\n</br>
+
+        squeezing<br>\n</br>
+        pressure<br>\n</br>
+        heaviness<br>\n</br>
+        tightening<br>\n</br>
+        burning or aching across the chest, usually starting behind the breastbone<br>\n\n</br>
+
+        <b>This pain often spreads to the neck, jaw, arms, shoulders, throat, back, or even the teeth.</b><br>\n</br>
+
+    Patients may also complain of symptoms including:<br>\n</br>
+
+    indigestion<br>\n</br>
+    heartburn<br>\n</br>
+    weakness<br>\n</br>
+    sweating<br>\n</br>
+    nausea<br>\n</br>
+    cramping<br>\n</br>
+    shortness of breath<br>\n</br><br>\n</br>
+    Stable angina usually lasts a short period and may feel like gas or indigestion. Unstable angina occurs at rest, is surprising, lasts longer, and may worsen over time. Variant angina occurs at rest and is usually severe.<br>\n</br> </string>
+
+    <string name="anginapain_causeslist"></string>
+    <string name="angina_is_most_frequently_the_result_of_underlying_coronary_artery_disease_the_coronary_arteries_supply_the_heart_with_oxygen_rich_blood_when_cholesterol_aggregates_on_the_artery_wall_and_hard_plaques_form_the_artery_narrows">Angina is most frequently the result of underlying coronary artery disease. The coronary arteries supply the heart with oxygen-rich blood. When cholesterol aggregates on the artery wall and hard plaques form, the artery narrows.<br>\n\n</br>
+    The actual angina attacks are the result of this reduced oxygen supply to the heart. Common triggers include:<br>\n</br>
+
+physical exertion<br>\n</br>
+severe emotional stress<br>\n</br>
+a heavy meal<br>\n</br>
+exposure to extreme temperatures<br>\n</br>
+smoking may trigger angina attacks<br>\n\n</br>
+
+
+    </string>
+    <string name="causes">Causes</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="workouttype3_desc">A steady run is obviously an excellent way to stay in shape, but running intervals will really push your cardiovascular fitness to the next level. Whether it’s sprints or hills, all you need is 10 seconds at a time. “I recommend keeping the intensity at 10 seconds to ensure you go all out,” says Fox, who suggests starting with four 10-second intervals per workout, eventually working your way up to 10. He also recommends doing the intervals first, so not only do you have the energy to do them, but this type of training will deplete some of the glycogen or carbohydrate stored in the muscle, allowing you to tap into stored fat more readily. Bonus!!<br>\n\n</br> </string>
+
+
+</resources>
+
+
+

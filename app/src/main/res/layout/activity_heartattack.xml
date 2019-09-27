@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_heartattack"
+    android:id="@+id/heartattack"
+    android:background="#ca170f">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/background_light"
+        android:padding="3dp"
+        android:text="@string/cardioview"
+        android:textColor="#ca170f"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="599dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/heartattacktop"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/heart_attack_health"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <TextView
+                android:id="@+id/heartattack1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/heartattack1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <TextView
+                android:id="@+id/heartattack_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <TextView
+                android:id="@+id/heartattackfast_facts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattackfast_facts"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heartattack_facts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_facts"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+            <!--Symptoms -->
+            <TextView
+                android:id="@+id/heartattack_symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_symptoms"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heartattack_symptomslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_symptomslist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--Causes -->
+            <TextView
+                android:id="@+id/heartattack_causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_causes"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heartattack_causeslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_causeslist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--Heart Attack Treatments -->
+            <TextView
+                android:id="@+id/heartattack_treatment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_treatment"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heartattack_treatmentlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_treatmentlist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--Heart Attack Prevention -->
+            <TextView
+                android:id="@+id/heartattack_prevention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_prevention"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/heartattack_preventionlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartattack_preventionlist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

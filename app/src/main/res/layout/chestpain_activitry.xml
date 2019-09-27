@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fifth_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ca170f">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/background_light"
+        android:padding="3dp"
+        android:text="@string/cardioview"
+        android:textColor="#ca170f"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="582dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:src="@drawable/chestpaintop" />
+
+            <TextView
+                android:id="@+id/chestpain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/chestpain"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+
+            <TextView
+                android:id="@+id/chestpain_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--//ChestPain causes-->
+            <TextView
+                android:id="@+id/chestpain_causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_causes"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/chestpain_cause2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause21"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/chestpain_cause3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause31"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/chestpain_cause4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause41"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/chestpain_cause5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_cause51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_cause51"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <!--ChestPain Treatment-->
+            <TextView
+                android:id="@+id/chestpain_treatment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_treatment"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_treat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_treat1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_treat11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_treat11"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/chestpain_treat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_treat2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_treat21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_treat21"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <!-- ChestPain Precaution -->
+            <TextView
+                android:id="@+id/chestpain_precaution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_precaution"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_precaution_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_precaution_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chestpain_precaution_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chestpain_precaution_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

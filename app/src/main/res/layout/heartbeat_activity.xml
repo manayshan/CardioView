@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forth_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ca170f">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/background_light"
+        android:padding="3dp"
+        android:text="@string/cardioview"
+        android:textColor="#ca170f"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="574dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/heartbeattop"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/heartbeattop"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <TextView
+                android:id="@+id/normal_heartbeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/normal_heartbeat"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <TextView
+                android:id="@+id/heartbeat_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heartbeat_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <TextView
+                android:id="@+id/problems_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/problems"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/problems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/problem_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+            <!--//Tachycardia-->
+            <TextView
+                android:id="@+id/tachycardia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/tachycardia"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <ImageView
+                android:id="@+id/tachycardia_image"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tachycardia"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <TextView
+                android:id="@+id/tachycardia_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/tachycardia_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--//Tachycardia Symptoms-->
+            <TextView
+                android:id="@+id/tachy_symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tachy_symptoms"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tachy_symptoms_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tachy_symptoms_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+            <!--//Tachycaerdia Causes-->
+
+            <TextView
+                android:id="@+id/tachy_causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tachy_causes"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tachy_causes_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tachy_causes_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+            <!--//Tachycardia Preventions-->
+            <TextView
+                android:id="@+id/tachy_prevention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tachy_prevention"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tachy_prevention_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tachy_prevention_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+            <!--//Bradycardia-->
+            <TextView
+                android:id="@+id/bradycardia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/bracardia"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <ImageView
+                android:id="@+id/bradycardia_image"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bradycardia"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="132dp" />
+
+            <TextView
+                android:id="@+id/bradycardia_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/bradycardia_txt"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="186dp"
+                tools:layout_editor_absoluteY="264dp" />
+
+            <!--//Bradycardia Symptoms-->
+            <TextView
+                android:id="@+id/brady_symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brady_symptoms"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brady_symptoms_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brady_symptoms_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <!--//Bradycaerdia Causes-->
+
+            <TextView
+                android:id="@+id/bradY_causes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/brady_causes"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brady_causes_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brady_cause_list"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <!--//Bradycardia Preventions-->
+            <TextView
+                android:id="@+id/brady_prevention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/brady_preventions"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brady_prevention_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brady_prevention_lists"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
